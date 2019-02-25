@@ -1,0 +1,754 @@
+/*All Devices with Responsive Nav*/
+@media (min-width: 320px) and (max-width: 736px) {
+	.logo{
+position: absolute;
+top: 0;
+width: auto;
+display: table;
+	}
+	
+.logo img{
+width: 70%;
+margin-left: 5px;
+}
+.main-nav{
+padding-top: 20px;	
+padding-bottom: 0px;
+}
+
+.main-nav .col-sm-9{
+width: 100%;	
+}
+.navbar-toggle{
+padding: 15px 10px;
+margin-top: 0px; 
+margin-bottom: 0px;
+z-index: 99999;
+top:-10px;
+}
+.navbar-toggle .icon-bar{
+width: 28px;
+height: 3px;	
+}
+.navbar-default .navbar-toggle .icon-bar{
+background-color: #000;
+}
+	.navbar-toggle .icon-bar+.icon-bar{
+		margin-top: 6px;
+	}
+	
+	.navbar-collapse.lower-navbar{
+	background-color: rgba(0, 0, 0, 0);
+text-align: center;	
+margin-top: 10px;
+	}
+	ul.nav.navbar-nav{
+	margin: 10px auto;
+float: none;	
+	}
+	
+	.under-center:hover:before, .under-center:focus:before, .under-center:active:before{
+	left: 100px;
+right: 100px;
+bottom: 8px;
+height: 2px;	
+	}
+	
+	#main.above-foot{
+padding-top: 50px;
+padding-bottom: 0px;	
+	}
+	
+.bar-home .row div{
+border-right: 1px solid rgba(0, 0, 0, .2);	
+}
+.bar-home h1{
+font-size: 26px;
+height: 26px;
+}
+.bar-home h2{
+	font-size: 10px;
+}
+.bar-home .row div+div img, .bar-home .row div+div+div img{
+max-height: 26px;	
+}
+	
+	
+	.featured{
+min-height: 200px;
+	}
+.featured h1{
+font-size: 18px;
+border-bottom: 2px solid #d85e3d;
+}
+.cross{
+height: 22px;	
+}
+	
+.featured p{
+font-size: 14px;
+}
+
+.home-bottom{
+background-image: none;
+padding-top: 20px;
+text-align: center;
+}
+	
+.home-bottom .lead, .home-bottom ul li{
+font-size: 14px;
+margin-top: 0px;
+}	
+.home-bottom h1{
+font-size:22px;
+}	
+	
+.foot-copy {
+font-size:10px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+background-color:#fff;	
+}
+ul.dropdown-menu{
+text-align:center;	
+}
+
+.footer{
+padding: 30px 0px;
+text-align:center;
+font-size:12px;
+}
+.footer img{
+width:30%;	
+margin-bottom: 15px;
+}
+hr.border-green.al-left{
+display: block;
+margin: 25px auto 30px;
+width: 85%;	
+}
+.apply-bar.pad-50{
+padding-top:25px;
+padding-bottom:25px;	
+}
+.apply-bar h1{
+margin-top: 0px;
+font-size: 20px;	
+}
+
+.apply-bar a.btn.btn-lg.btn-default{
+display: table;
+margin: 10px auto 0px;
+font-size: 12px;	
+}
+.page-bg h1{
+padding-bottom: 5px;
+font-size: 26px;
+margin-top: 5px;
+margin-bottom: 0px;	
+}
+
+
+	
+}
+
+/*iPhone 5 Portrait*/
+@media (min-width: 319px) and (max-width: 321px) {
+	.above-nav br {
+		display: block !important;
+	}
+	
+}
+
+
+
+/*iPhone 5 Landscape*/
+@media (min-width: 566px) and (max-width: 569px) {
+.logo{
+width: 50%;	
+}
+.apply-bar h1{
+text-align: center;	
+}
+.apply-bar h1::after{
+right: 60px;
+top: -5px;	
+}
+.footer img{
+width: 20%; 	
+}	
+	
+}
+
+
+
+/*iPhone 6 Portrait*/
+@media (min-width: 374px) and (max-width: 376px) {
+	
+	
+}
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+	
+	
+}
+
+
+/*iPhone 6 Landscape*/
+@media (min-width: 666px) and (max-width: 668px) {
+.logo{
+width: 50%;	
+}
+.apply-bar h1{
+text-align: center;	
+}
+.apply-bar h1::after{
+right: 60px;
+top: -5px;	
+}
+.footer img{
+width: 20%; 	
+}	
+	
+}
+
+
+
+/*iPhone 6 Plus Portrait */
+@media (min-width: 413px) and (max-width: 415px) {
+	
+	
+	
+	
+}
+
+@media (min-width: 566px) and (max-width: 767px) {
+
+	.main-nav img {
+		width: 450px;
+	}
+	.navbar-nav > li {
+		float: left!important;
+		width: 33%;
+	}
+
+	ul.nav.navbar-nav {
+		width: 75%;
+	}
+
+	.main-nav.display + .parallax-window #hamburger {
+	  top: 155px;
+	}
+
+	/*.main-nav.display + .parallax-window .btn-reserve {
+		top: 265px !important;
+	}
+
+	.main-nav.display + .parallax-window .btn-reserve br {
+		display: none;
+	}*/
+
+
+	
+
+}
+
+
+/*iPhone 6 Plus Landscape*/
+@media (min-width: 735px) and (max-width: 737px) {
+.logo{
+width: 50%;	
+}
+.apply-bar h1{
+text-align: center;	
+}
+.apply-bar h1::after{
+right: 130px;
+top: -5px;	
+}
+.footer img{
+width: 20%; 	
+}
+	
+}
+
+
+/*TABLET Portrait*/
+@media (min-width: 768px) and (max-width: 1023px) {
+.nav>li>a{
+/*padding: 10px 16px;*/
+padding: 10px 12px;
+font-size: 14px;	
+}
+ul.nav.navbar-nav{
+/*margin: 50px auto 0px;*/
+margin: 0px auto;
+display: table;
+float:none;
+}
+.main-nav{
+padding-bottom: 10px;	
+}
+#main.above-foot{
+padding-top: 150px;
+}
+.logo img{
+width: 50%;
+margin: 0 auto;
+display: table;
+}
+.featured{
+min-height: 400px;	
+}
+
+.featured h1{
+font-size: 30px;	
+}
+.featured p{
+font-size: 20px;	
+}
+
+.bar-home .row div{
+	padding-top: 15px;
+padding-bottom: 10px;
+}
+.bar-home .row div+div img, .bar-home .row div+div+div img{
+max-height: 28px;
+}
+
+.bar-home img{
+width: 19%;	
+}
+.home-bottom{
+background-position: center;
+padding-top: 0px;
+padding-bottom: 0px;	
+}
+.home-bottom ul li{
+font-size:16px;	
+}
+
+.home-bottom h1{
+font-size: 22px;
+margin-top: 40px;
+margin-bottom: 0px;
+}
+hr.border-green.al-left{
+margin: 15px 0px 20px;
+width: 55%;	
+}
+.home-bottom ul l{
+	font-size: 16px;
+}
+.foot-copy {
+	font-size:10px;
+}	
+.logo{
+width:100%;
+position: absolute;
+left: 0px;
+top: -20px;	
+}
+.apply-bar h1{
+	margin-top: 10px;
+font-size: 22px;
+}
+.apply-bar h1::after{
+	top: -5px;
+}
+
+.membership p {
+	font-size: 12px !important;
+}
+	
+}
+
+
+/*Tablet Landscape*/
+@media (min-width: 1024px) and (max-width: 1200px) {
+/*ul.nav.navbar-nav{
+margin: 0px 0px 0px;
+}
+.nav>li>a{
+padding: 10px 18px 10px;
+font-size: 12px;
+}*/
+.home-bottom{
+background-position:200px center;
+padding-top: 40px;
+padding-bottom: 20px;
+}
+.home-bottom h1{
+font-size: 24px;
+margin-top: 50px;
+}
+.home-bottom ul li{
+font-size: 18px;	
+}
+.foot-copy{
+font-size: 12px;	
+}
+.logo{
+width: 240px;
+top: -40px;	
+}
+
+#main.above-foot{
+padding-top: 200px;	
+}
+
+
+.y-box{
+font-size: 16px;	
+}
+.y-box i{
+margin-right: 10px;	
+}
+.carousel-caption{
+bottom: 80px;
+right: 10%;
+left: 10%;	
+}
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+	.above-nav br {
+		display: none;
+	}
+
+	.welcome {
+		padding-top: 5%;
+	}
+}
+
+
+@media screen and (max-width: 1199px) {
+	.btn-reserve {
+		display: none;
+	}
+
+	#hamburger.burger-stick {
+		top: 15px;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.above-nav br {
+		display: block;
+	}
+
+/*	.map-bar .map-info {
+		left: 5%;
+	}*/
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){
+	.dining-room .col-sm-7 {
+		padding: 20%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+	.dining-room .col-sm-7 {
+		padding: 25%;
+	}
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#hamburger {
+		top: 85px;
+		right: 3%;
+	}
+
+	.parallax-window {
+	    min-height: 400px;
+	}
+
+	.tartan-bar::after {
+		width: 257px;
+	}
+
+	.welcome img {
+		width: 75%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.discover ul {
+		padding-top: 5%;
+	}
+
+	.discover li {
+		width: 24%;
+	}
+
+	.map-bar .map-info {
+		left: 0%;
+		height: 400px;
+	}
+
+	/*.map-info {
+		padding-bottom: 67px;
+	}
+*/
+	/*.map-info .divider {
+		margin: 2% auto 10%;
+	}*/
+
+	.map-info .row:last-of-type p:first-of-type {
+		/*padding: 5% 0;*/
+		padding-top: 2%;
+	}
+
+	.signup-bar input.form-control {
+		width: 75%;
+	}
+
+	.signup-bar .btn-default {
+		right: 13%;
+	}
+
+	/*.btn-reserve {
+		right: 3%;
+		top: 135px;
+	}
+
+	.main-nav.display + .parallax-window .btn-reserve {
+	    right: 10%;
+	}
+
+	.main-nav.display + .parallax-window .btn-reserve br {
+		display: none;
+	}*/
+
+	
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+/*	.signup-bar h2 {
+		text-align: center;
+	}
+
+	.signup-bar input {
+		margin: 3% auto 0;
+	}*/
+
+	.map-info {
+		left: 0;
+	}
+
+	.map-text {
+		border-bottom: 2px solid #1e242c;
+		height: 100%;
+	}
+
+	.contact-page img {
+	  width: 100% !important;
+	}
+
+	.questions {
+		border-left: none;
+		padding-top: 5%;
+	}
+
+	.questions ul {
+		padding: 0;
+	}
+
+	.team-member img {
+	  padding-top: 0;
+	  width: 50%;
+	  display: block;
+	  margin: 0 auto;
+	}
+
+	#map {
+		height: 300px;
+	}
+
+	.map-bar .map-info {
+	  position: relative;
+	  width: 100%;
+	  height: initial;
+   
+	}
+
+	.dining-room .col-sm-7 {
+		padding: 29%;
+	}
+
+
+}
+
+@media screen and (min-width: 768px) {
+	.events-page > .container p {
+	    padding: 0 5%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	#hamburger {
+		/*top: 5%;*/
+		top: 45px;
+		right: 5%;
+	}
+
+	.parallax-content {
+		padding-top: 45px;
+	}
+
+	.main-nav {
+		/*top: -410px;*/
+		top: -600px;
+	}
+
+	.header-logo {
+		width: 100%;
+	}
+
+	.parallax-window {
+	    min-height: 300px;
+	}
+
+	.tartan-bar, .tartan-bar::before, .tartan-bar::after {
+		height: 40px;
+	}
+
+	.tartan-bar::after {
+		/*width: 100px;*/
+		width: 169px;
+	}
+
+	.welcome img {
+		width: 75%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.discover ul {
+		padding-top: 5%;
+	}
+
+	.map-bar .map-info {
+		position: relative;
+		left: 0;
+		top: 0;
+		height: initial;
+	}
+
+	.map-text .row:last-of-type {
+		text-align: center;
+	}
+
+	.signup-bar input.form-control {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.signup-bar .btn-default {
+	    position: relative;
+	    top: 0;
+	    right: 0;
+	    border: 1px solid #f8fafb;
+	}
+
+	.header-logo {
+		padding: 10px 0;
+	}
+
+	/*.btn-reserve {
+		right: 3%;
+	}
+
+	.btn-reserve br {
+		display: block;
+	}
+
+	.btn-stick {
+	  left: 5px;
+	  width: 60%
+	}
+
+	.btn-reserve.btn-stick br {
+	  display: none;
+	}
+
+	.main-nav.display + .parallax-window .btn-reserve {
+	    top: 435px;
+	    width: 95%;
+	}*/
+
+	/*#hamburger.burger-stick {
+		top: 5px;
+	}*/
+
+	
+
+	.parallax-content h1 {
+		font-size: 50px;
+	}
+
+	.contact-page h3 {
+		font-size: 20px;
+	}
+
+	.contact-page h4 {
+		font-size: 16px;
+	}
+
+	.about-page h1 img {
+		width: 100%;
+	}
+
+	.team-member img {
+	  width: 100%;
+	}
+
+	.dining-room .col-sm-5 {
+		padding-bottom: 5%;
+	}
+
+	.map-text .col-xs-12:last-of-type {
+	  margin-top: 0px;
+	  margin-bottom: 0px;
+	}
+
+	.menu-page .col-sm-6:last-of-type .col-sm-6:first-of-type ul {
+		margin: 0;
+	}
+
+	.events-page .room-list li {
+		display: block;
+		padding: 2%;
+	}
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+	.welcome img {
+		width: 100%;
+	}
+}
+

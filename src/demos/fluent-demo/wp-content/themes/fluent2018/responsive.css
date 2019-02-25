@@ -1,0 +1,450 @@
+/*All Devices with Responsive Nav*/
+@media (min-width: 320px) and (max-width: 736px) {
+
+.main-nav{
+padding-top: 20px;
+padding-bottom: 40px;
+}
+
+.main-nav .col-sm-9{
+width: 100%;
+}
+.navbar-toggle{
+padding: 15px 10px;
+margin-top: 0px;
+margin-bottom: 0px;
+z-index: 99999;
+top:-10px;
+}
+.navbar-toggle .icon-bar{
+width: 28px;
+height: 3px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+background-color: #000;
+}
+	.navbar-toggle .icon-bar+.icon-bar{
+		margin-top: 6px;
+	}
+
+	.navbar-collapse.lower-navbar{
+	background-color: rgba(0, 0, 0, 0);
+text-align: center;
+margin-top: 10px;
+	}
+	ul.nav.navbar-nav{
+	margin: 10px 0px 10px;
+	float: none;
+	}
+
+	.under-center:hover:before, .under-center:focus:before, .under-center:active:before{
+	left: 100px;
+right: 100px;
+bottom: 8px;
+height: 2px;
+	}
+
+	#main.above-foot{
+padding-top: 50px;
+padding-bottom: 0px;
+	}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+background-color:#fff;
+}
+ul.dropdown-menu{
+text-align:center;
+}
+
+.footer{
+padding: 30px 0px;
+font-size:12px;
+}
+.footer img{
+margin-bottom: 15px;
+}
+
+
+
+
+
+}
+
+/*iPhone 5 Portrait*/
+@media (min-width: 319px) and (max-width: 321px) {
+
+}
+
+
+
+/*iPhone 5 Landscape*/
+@media (min-width: 566px) and (max-width: 569px) {
+
+
+}
+
+
+
+/*iPhone 6 Portrait*/
+@media (min-width: 374px) and (max-width: 376px) {
+
+
+}
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+}
+
+
+/*iPhone 6 Landscape*/
+@media (min-width: 666px) and (max-width: 668px) {
+
+
+}
+
+
+
+/*iPhone 6 Plus Portrait */
+@media (min-width: 413px) and (max-width: 415px) {
+
+
+
+
+}
+
+
+/*iPhone 6 Plus Landscape*/
+@media (min-width: 735px) and (max-width: 737px) {
+
+
+}
+
+
+/*TABLET Portrait*/
+@media (min-width: 768px) and (max-width: 1023px) {
+.nav>li>a{
+padding: 10px 14px;
+font-size: 14px;
+}
+ul.nav.navbar-nav{
+margin: 75px auto 0px;
+display: table;
+float:none;
+}
+.main-nav{
+padding-bottom: 10px;
+}
+#main.above-foot{
+padding-top: 150px;
+}
+
+
+
+.foot-copy, .foot-copy .text-right{
+font-size:12px;
+}
+.logo{
+width: 26%;
+left: 37%;
+top: 0;
+}
+
+
+
+}
+
+
+/*Tablet Landscape*/
+@media (min-width: 1024px) and (max-width: 1200px) {
+ul.nav.navbar-nav{
+margin: 0px 0px 0px;
+}
+
+.foot-copy{
+font-size: 12px;
+}
+
+.about .container-fluid{
+background-position: -200px center;
+}
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#floating-footer .col-sm-6:last-of-type ul {
+		padding: 26px 0;
+	}
+
+	.banks-page .alt img {
+	  margin-top: 135px;
+	}
+
+	.banks-page .alt .row:nth-of-type(3) img {
+	  margin-top: 60px !important;
+	}
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+	.logo {
+		width: 20%;
+		left: 40%;
+		top: 0;
+	}
+
+
+	.welcome {
+		padding-top: 175px;
+		padding-bottom: 75px;
+	}
+
+	.interior-title {
+		padding-top: 175px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.text-slider.slider {
+		width: 75%;
+	}
+
+
+	.foot-form .col-md-6:first-of-type, .foot-form .col-md-6:last-of-type {
+	  padding: 0;
+	}
+
+	.foot-form .col-md-6:first-of-type {
+		margin: 20px 0;
+	}
+
+	.individual-page img, .advisors-page img {
+		margin-top: 25px;
+	}
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.about .col-sm-5 {
+		background-position: 20%;
+	}
+
+	#floating-footer .col-sm-6:last-of-type li span {
+		display: block;
+		/* padding-left: 49px; */
+		margin-top: -5px;
+	}
+
+	#floating-footer .col-sm-6:last-of-type li:last-of-type img {
+		vertical-align: top;
+	}
+
+	#floating-footer .col-sm-6:last-of-type ul {
+		padding: 27px 0;
+	}
+
+	#floating-footer li {
+		font-size: 16px;
+	}
+
+	.interior-title {
+		padding-top: 175px;
+	}
+
+	.individual-page .text-center p, .advisors-page .text-center p, .banks-page .text-center p {
+		width: 90%;
+	}
+
+	.individual-page ul li, .banks-page ul li {
+		margin: 3% 1%;
+	}
+
+	.banks-page .alt img {
+	  margin-top: 175px;
+	}
+
+	.banks-page .alt .row:nth-of-type(3) img {
+	  margin-top: 95px !important;
+	}
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+	#hamburger {
+		top: 3px;
+	}
+
+	.main-nav {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.main-nav.open {
+		background-color: #2e6e8e;
+	}
+
+	.main-nav.open ul.nav.navbar-nav {
+		padding: 35px 0;
+	}
+
+	.welcome {
+		padding-top: 115px;
+	}
+
+	.welcome .btn-info {
+		float: left;
+		clear: right;
+	}
+
+	.welcome .btn-default {
+		float: left;
+		clear: left;
+		margin-top: 15px;
+	}
+
+  #about-info {
+		padding-left: 15px;
+	}
+
+	.approach p.lead {
+    padding: 0px 10%;
+  }
+
+	.faq-section img + p {
+		margin: 15px 10%;
+	}
+
+	/* .faq-section .pad-50 {
+		padding-top: 0;
+	} */
+
+	.approach img.approach-logo {
+		width: 185px;
+	}
+
+	.logo {
+	  position: absolute;
+	  top: 6px;
+		left: 10px;
+	  width: auto;
+	  display: table;
+	}
+
+	.logo img{
+	width: 70%;
+	margin-left: 5px;
+	}
+
+	.foot-copy .text-right, .foot-copy .text-left{
+	text-align: center !important;
+	font-size:12px;
+	}
+
+	.footer p {
+		padding-right: 0;
+	}
+
+
+	.p-window section .image {
+		-moz-background-size: auto;
+    -webkit-background-size: auto;
+    background-size: cover;
+	}
+
+	.slider {
+	   width: 75%;
+	   margin: 15px auto;
+	}
+
+	.text-slider.slider {
+		width: 100%;
+	}
+
+	.about .col-sm-5 {
+		min-height: auto;
+		max-height: 350px;
+		background-position: center top;
+	}
+
+	.p-window.one img {
+		display: none;
+	}
+
+	.above-foot {
+		height: auto;
+		padding: 50px 0;
+	}
+
+	#floating-footer {
+		position: static;
+	}
+
+	#floating-footer .col-sm-6:first-of-type {
+		margin-bottom: 50px;
+	}
+
+	.newsletter-form .btn-default {
+	  border-top-left-radius: 6px;
+	  border-bottom-left-radius: 6px;
+	}
+
+	.newsletter-form .form-control {
+	  border-top-right-radius: 6px;
+	  border-bottom-right-radius: 6px;
+
+	}
+
+	.interior-content h4 span {
+	  padding: 5px 0;
+	}
+
+	.individual-page .text-center p, .advisors-page .text-center p, .banks-page .text-center p {
+		width: 100%;
+	}
+
+
+	.banks-page .alt img, .banks-page .alt .row:nth-of-type(3) img {
+	  margin: 50px auto 25px;
+	}
+
+	.individual-page ul li, .banks-page ul li {
+		width: 100%;
+		margin: 15px 0;
+	}
+
+	.interior-content p.lead {
+		width: 100%;
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.footer .foot-nav, .footer .foot-nav li {
+		display: block;
+	}
+
+	.newsletter-form .form-control {
+		width: 100%;
+	}
+
+	.banks-page .alt img, .banks-page .alt .row:nth-of-type(3) img {
+		width: 150px;
+	}
+}

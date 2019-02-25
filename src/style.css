@@ -1,0 +1,80 @@
+body{font-family:'Josefin Sans', sans-serif;background-color:#000;}
+.btn.btn-primary{padding:10px 20px 7px;background-color:#7a00ff5c;border-color:#7a00ff5c;color:#fff;margin-top:25px;cursor:pointer;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out;}
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus{background-color:#7a00ff;border-color:#7a00ff;color:#fff;box-shadow:none;}
+nav{-webkit-box-shadow:0 2px 8px 0 rgba(0, 0, 0, .5);box-shadow:0 2px 8px 0 rgba(0, 0, 0, .3);background-color:#000;position:fixed;top:0;padding:15px 25px;z-index:99;}
+nav h1{color:#fff;text-shadow:1px 1px 2px #000;font-size:1.5em;font-weight:bold;display:inline-block;margin:0 75px 0 0;animation-delay:.5s;}
+nav span{font-size:.8em;;}
+#link-box{width:350px;-webkit-box-shadow:0 2px 8px 0 rgba(0, 0, 0, .5);box-shadow:0 2px 8px 0 rgba(0, 0, 0, .3);background-color:#000;position:fixed;top:75px;padding:25px;border-bottom-right-radius:25px;z-index:9;-webkit-transition:all .25s ease-in-out;-moz-transition:all .25s ease-in-out;-ms-transition:all .25s ease-in-out;-o-transition:all .25s ease-in-out;transition:all .25s ease-in-out;-moz-transform:translateY(-400px);-webkit-transform:translateY(-400px);-o-transform:translateY(-400px);-ms-transform:translateY(-400px);transform:translateY(-400px);}
+#link-box.open{-moz-transform:translateY(0px);-webkit-transform:translateY(0px);-o-transform:translateY(0px);-ms-transform:translateY(0px);transform:translateX(0px);}
+#link-box li{padding:10px 0;-webkit-transition:all .25s ease-in-out;-moz-transition:all .25s ease-in-out;-ms-transition:all .25s ease-in-out;-o-transition:all .25s ease-in-out;transition:all .25s ease-in-out;}
+#link-box li span{color:#fff;font-size:2em;cursor:pointer;-webkit-transition:all .25s ease-in-out;-moz-transition:all .25s ease-in-out;-ms-transition:all .25s ease-in-out;-o-transition:all .25s ease-in-out;transition:all .25s ease-in-out;}
+#link-box li:first-of-type span:hover, #link-box li:first-of-type span:focus{color:#f18702;}
+#link-box li:nth-of-type(2) span:hover, #link-box li:nth-of-type(2) span:focus{color:#00ff72;}
+#link-box li:nth-of-type(3) span:hover, #link-box li:nth-of-type(3) span:focus{color:#00baff;}
+#link-box li:last-of-type span:hover, #link-box li:last-of-type span:focus{color:#ff005a;}
+video#bgvid{position:fixed;top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-100;-ms-transform:translateX(-50%) translateY(-50%);-moz-transform:translateX(-50%) translateY(-50%);-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);background:url(img/clownfish.png) no-repeat;background-size:cover;}
+#hamburger{width:30px;height:35px;position:absolute;top:25px;right:25px;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-o-transition:.5s ease-in-out;transition:.5s ease-in-out;cursor:pointer;background:none;outline:none !important;border:none;display:inline-block;animation-delay:.5s;}
+#hamburger span{display:block;position:absolute;height:3px;width:100%;background:#fff;border-radius:5px;opacity:1;left:0;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.25s ease-in-out;-moz-transition:.25s ease-in-out;-o-transition:.25s ease-in-out;transition:.25s ease-in-out;}
+#hamburger span:nth-child(2){top:6px;}
+#hamburger span:nth-child(3),#hamburger span:nth-child(4){top:15px;}
+#hamburger span:nth-child(5){top:24px;}
+#hamburger.open span:nth-child(2){top:18px;width:0%;left:50%;}
+#hamburger.open span:nth-child(3){-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+#hamburger.open span:nth-child(4){-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);}
+#hamburger.open span:nth-child(5){top:18px;width:0%;left:50%;}
+.close{width:30px;height:35px;opacity:1;cursor:pointer;position:relative;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-o-transition:.5s ease-in-out;transition:.5s ease-in-out;cursor:pointer;background:none;outline:none !important;border:none;display:inline-block;}
+.close span{display:block;position:absolute;height:3px;width:100%;background:#fff;border-radius:5px;opacity:1;left:0;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.25s ease-in-out;-moz-transition:.25s ease-in-out;-o-transition:.25s ease-in-out;transition:.25s ease-in-out;}
+.close span:nth-child(2){top:18px;width:0%;left:50%;}
+.close span:nth-child(3){-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+.close span:nth-child(4){-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);}
+.close span:nth-child(5){top:18px;width:0%;left:50%;}
+#about, #resume, #portfolio, #contact, #thanks{margin:155px auto;width:85%;padding:50px;background-color:rgba(0, 0, 0, 0.9);color:#fff;padding:50px;opacity:0;-webkit-transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-o-transition:.5s ease-in-out;transition:.5s ease-in-out;position:absolute;top:0;left:0;right:0;height:1px;overflow:hidden;}
+#about.open, #resume.open, #portfolio.open, #contact.open, #thanks.open{opacity:1;z-index:5;height:auto;overflow:visible;}
+.content-box h2{font-size:3.2em;display:inline-block;padding-bottom:5px;margin-bottom:25px;}
+.content-box .close:hover{opacity:1;}
+#about{border:5px solid #f18702;}
+#about .close:hover span{background-color:#f18702;}
+#resume{border:5px solid #00ff72;}
+#resume .close:hover span{background-color:#00ff72;}
+#portfolio{border:5px solid #00baff;}
+#portfolio .close:hover span{background-color:#00baff;}
+#contact{border:5px solid #ff005a;}
+#contact .close:hover span{background-color:#ff005a;}
+#thanks{border:5px solid #7a00ff;}
+#about h2{border-bottom:3px solid #f18702;}
+#resume h2{border-bottom:3px solid #00ff72;}
+#portfolio h2{border-bottom:3px solid #00baff;}
+#contact h2{border-bottom:3px solid #ff005a;}
+#thanks h2{border-bottom:3px solid #7a00ff;}
+#resume section{padding:50px 0;border-bottom:3px solid #00ff72;}
+#resume section:last-of-type{border-bottom:0;}
+#resume h3{display:inline-block;font-size:2em;padding-bottom:5px;margin-bottom:15px;}
+#resume section:first-of-type h3{border-bottom:3px solid #f18702;}
+#resume section:nth-of-type(2) h3{border-bottom:3px solid #00baff;}
+#resume section:last-of-type h3{border-bottom:3px solid #ff005a;}
+#resume p{margin-bottom:5px;}
+#resume ul{margin:15px 0;}
+#resume ul li{padding:5px 0;font-size:1.05em;}
+.job{padding:25px 0;border-bottom:1px solid #ccc;}
+.job:last-of-type{border-bottom:0;}
+.job h4{margin-top:15px;}
+.job h4 span{font-size:.7em;margin-left:10px;}
+.job h5{font-size:1.15em;margin-bottom:15px;}
+#resume .fa-bullseye{vertical-align:middle;font-size:.9em;padding-bottom:4px;color:#a482f0;}
+.project{display:inline-block;width:47%;margin:1%;border:3px solid #000;-webkit-box-shadow:0 2px 8px 0 rgba(0, 0, 0, .5);box-shadow:0 2px 8px 0 rgba(0, 0, 0, .3);-webkit-transition:.25s ease-in-out;-moz-transition:.25s ease-in-out;-o-transition:.25s ease-in-out;transition:.25s ease-in-out;}
+.project:nth-of-type(4n + 1):hover{border-color:#f18702;}
+.project:nth-of-type(4n + 2):hover{border-color:#00ff72;}
+.project:nth-of-type(4n + 3):hover{border-color:#00baff;}
+.project:nth-of-type(4n + 4):hover{border-color:#ff005a;}
+.project img{width:100%;height:auto;}
+#contact .form-control{background-color:rgba(255,255,255,.9);border-radius:0;}
+#contact .error{color:#f00;}
+@media screen and (max-width:767px){nav{width:100%;}
+#link-box{width:100%;border-bottom-right-radius:0;}
+#about, #resume, #portfolio, #contact{padding:25px;}
+.project{width:100%;margin:15px 0;}
+}
+@media (min-width:567px) and (max-width:767px){#about, #resume, #portfolio, #contact{width:100%;}
+}
+@media screen and (max-width:576px){#about, #resume, #portfolio, #contact{width:92%;}
+}
