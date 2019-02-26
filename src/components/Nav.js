@@ -3,9 +3,19 @@ import { connect } from 'react-redux'
 import LinkBox from './LinkBox'
 
 class Nav extends Component {
+  navSlide = () => {
+    const linkBox = document.getElementById("link-box")
+    linkBox.classList.toggle("open")
+  }
 
   handleBurger = () => {
-    this.props.burgerClick()
+    if (this.props.menuActive) {
+      this.navSlide()
+      setTimeout(this.props.burgerClick, 50)
+    } else {
+      this.props.burgerClick()
+      setTimeout(this.navSlide, 50)
+    }
   }
 
   render() {
