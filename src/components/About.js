@@ -1,17 +1,24 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux'
+import CloseButton from './CloseButton'
 
 class About extends Component {
 
+  componentDidMount() {
+    function toggleFade(){
+      const content = document.querySelector(".content-box")
+      content.classList.add("open")
+    }
+
+   setTimeout(toggleFade, 250)
+  }
+
+
+
   render() {
     return (
-      <div id="about" className="content-box jello animated open">
-        <button type="button" className="close">
-          <span className="sr-only">Close About</span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+      <div id="about" className="content-box jello animated">
+        <CloseButton name="about"/>
 
         <h2>About</h2>
         <p>My name is Matt Migliore, and I am a full stack web developer who loves the challenge of problem solving with code. I build beautiful, dynamic web applications through my experience with JavaScript, React, Redux, Ruby on Rails, HTML and CSS. I love solving puzzles, and I am determined to solve every puzzle that I encounter when coding.</p>
@@ -23,4 +30,10 @@ class About extends Component {
 
 }
 
-export default About;
+const mapStateToProps = state => {
+  return {
+    view: state.view
+  }
+}
+
+export default connect(mapStateToProps)(About)

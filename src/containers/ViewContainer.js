@@ -6,6 +6,8 @@ class ViewContainer extends Component {
 
   renderView = () => {
     switch (this.props.view) {
+      case "empty":
+        return null
       case "about":
         return <About />
       default:

@@ -1,6 +1,6 @@
 const defaultState = {
   menuActive: false,
-  view: ""
+  view: "empty"
 }
 
 export default function reducer(state = defaultState, action) {
@@ -15,6 +15,11 @@ export default function reducer(state = defaultState, action) {
         ...state,
         menuActive: false,
         view: action.payload
+      }
+    case "CLOSE_VIEW":
+      return {
+        ...state,
+        view: "empty"
       }
     default:
       return defaultState
