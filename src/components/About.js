@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-  <div id="about" className="content-box">
+  <div id="about" className="content-box jello animated">
     <button type="button" class="close">
       <span class="sr-only">Close About</span>
       <span></span>

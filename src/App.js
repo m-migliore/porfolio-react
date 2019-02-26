@@ -7,8 +7,7 @@ import ViewContainer from './containers/ViewContainer'
 
 class App extends Component {
   state = {
-    navActive: false,
-    view: ""
+    navActive: false
   }
 
   render() {
