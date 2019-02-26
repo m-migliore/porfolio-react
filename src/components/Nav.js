@@ -4,10 +4,10 @@ class Nav extends Component {
 
   render() {
     return (
-      <nav class="animated fadeInDown" id="nav">
-        <h1 class="animated fadeInLeft">Matt Migliore <br/> <span>Front End Web Developer</span></h1>
-        <button type="button" id="hamburger" class="animated fadeInUp">
-    		<span class="sr-only">Toggle navigation</span>
+      <nav className="animated fadeInDown" id="nav">
+        <h1 className="animated fadeInLeft">Matt Migliore <br/> <span>Full Stack Web Developer</span></h1>
+        <button type="button" id="hamburger" className="animated fadeInUp">
+    		<span className="sr-only">Toggle navigation</span>
     		<span></span>
     		<span></span>
     		<span></span>
