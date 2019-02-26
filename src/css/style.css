@@ -231,7 +231,9 @@ video#bgvid{
   height:35px;
   opacity:1;
   cursor:pointer;
-  position:relative;
+  position: absolute;
+  top: 50px;
+  right: 50px;
   -webkit-transform:rotate(0deg);
   -moz-transform:rotate(0deg);
   -o-transform:rotate(0deg);
@@ -323,6 +325,7 @@ video#bgvid{
   display:inline-block;
   padding-bottom:5px;
   margin-bottom:25px;
+  margin-top: 0;
 }
 
 .content-box .close:hover{
@@ -344,6 +347,11 @@ video#bgvid{
 
 #resume .close:hover span{
   background-color:#00ff72;
+}
+
+#resume ul {
+  padding: 0;
+  list-style: none;
 }
 
 #portfolio{

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import About from '../components/About'
+import Resume from '../components/Resume'
 
 class ViewContainer extends Component {
 
@@ -10,6 +11,14 @@ class ViewContainer extends Component {
         return null
       case "about":
         return <About />
+      case "resume":
+        return <Resume />
+      case "portfolio":
+        // return <Portfolio />
+        return null
+      case "contact":
+        // return <Contact />
+        return null
       default:
         return null
     }
