@@ -1,4 +1,17 @@
-body{font-family:'Josefin Sans', sans-serif;background-color:#000;}
+body{
+  font-family:'Josefin Sans',
+  sans-serif;background-color:#000;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
 .btn.btn-primary{padding:10px 20px 7px;background-color:#7a00ff5c;border-color:#7a00ff5c;color:#fff;margin-top:25px;cursor:pointer;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out;}
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus{background-color:#7a00ff;border-color:#7a00ff;color:#fff;box-shadow:none;}
 nav{-webkit-box-shadow:0 2px 8px 0 rgba(0, 0, 0, .5);box-shadow:0 2px 8px 0 rgba(0, 0, 0, .3);background-color:#000;position:fixed;top:0;padding:15px 25px;z-index:99;}
