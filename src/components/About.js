@@ -4,7 +4,7 @@ class About extends Component {
 
   render() {
     return (
-      <div id="about" className="content-box jello animated">
+      <div id="about" className="content-box jello animated open">
         <button type="button" className="close">
           <span className="sr-only">Close About</span>
           <span></span>

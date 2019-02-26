@@ -10,6 +10,12 @@ export default function reducer(state = defaultState, action) {
         ...state,
         menuActive: !state.menuActive
       }
+    case "SET_VIEW":
+      return {
+        ...state,
+        menuActive: false,
+        view: action.payload
+      }
     default:
       return defaultState
   }

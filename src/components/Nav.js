@@ -11,7 +11,7 @@ class Nav extends Component {
   handleBurger = () => {
     if (this.props.menuActive) {
       this.navSlide()
-      setTimeout(this.props.burgerClick, 50)
+      setTimeout(this.props.burgerClick, 100)
     } else {
       this.props.burgerClick()
       setTimeout(this.navSlide, 50)

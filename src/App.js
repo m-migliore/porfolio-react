@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './style.css';
+import './css/animate.css';
+import './css/style.css';
 import Nav from './components/Nav'
 import Clownfish from './components/Clownfish'
 import ViewContainer from './containers/ViewContainer'
