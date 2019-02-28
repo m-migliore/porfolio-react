@@ -19,6 +19,16 @@ class Portfolio extends Component {
         <h2>Portfolio</h2>
         <div className="binder text-center">
           <div className="project">
+            <a href="https://github.com/m-migliore/chef-buddi-master" target="_blank" rel="noopener noreferrer">
+              <img src={require("../img/chef-buddi.png")} alt="Chef Buddi" />
+            </a>
+          </div>
+          <div className="project">
+            <a href="https://github.com/m-migliore/triviasaurus-master" target="_blank" rel="noopener noreferrer">
+              <img src={require("../img/triviasaurus.png")} alt="Triviasaurus" />
+            </a>
+          </div>
+          <div className="project">
             <a href="https://gcovisionperformance.com/" target="_blank" rel="noopener noreferrer">
               <img src={require("../img/gcv.png")} alt="Gold Coast Vision Performance" />
             </a>

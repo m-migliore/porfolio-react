@@ -1,4 +1,4 @@
-/*((((((((( GENERAL )))))))))*/
+/********** GENERAL **********/
 * {
   box-sizing: border-box;
 }
@@ -39,7 +39,7 @@ body {
   box-shadow:none;
 }
 
-/*(((((((((( NAV ))))))))))*/
+/********** NAV **********/
 
 nav {
   -webkit-box-shadow:0 2px 8px 0 rgba(0, 0, 0, .5);
@@ -305,19 +305,10 @@ video#bgvid{
   -moz-transition:.5s ease-in-out;
   -o-transition:.5s ease-in-out;
   transition:.5s ease-in-out;
-  /* position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  height:1px;
-  overflow:hidden; */
 }
 
 #about.open, #resume.open, #portfolio.open, #contact.open, #thanks.open{
   opacity:1;
-  /* z-index:5;
-  height:auto;
-  overflow:visible; */
 }
 
 .content-box h2{
@@ -494,6 +485,14 @@ video#bgvid{
   transition:.25s ease-in-out;
 }
 
+.project:hover {
+  -moz-transform: scale(1.05);
+-webkit-transform: scale(1.05);
+-o-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+}
+
 .project:nth-of-type(4n + 1):hover{
   border-color:#f18702;
 }
@@ -511,7 +510,9 @@ video#bgvid{
 }
 
 .project img{
-  width:100%;height:auto;
+  width:100%;
+  height:auto;
+  display: block;
 }
 
 #contact .form-control{
@@ -557,12 +558,6 @@ video#bgvid{
     margin:15px 0;
   }
 }
-
-/* @media (min-width:567px) and (max-width:767px){
-  #about, #resume, #portfolio, #contact{
-    width: 80% !important;
-  }
-} */
 
 @media screen and (max-width:576px){
   #about, #resume, #portfolio, #contact{

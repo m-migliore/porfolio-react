@@ -14,7 +14,7 @@ class LinkBox extends Component {
           <li onClick={this.handleClick} data-view="about">About</li>
           <li onClick={this.handleClick} data-view="resume">Resume</li>
           <li onClick={this.handleClick} data-view="portfolio">Portfolio</li>
-          {/* <li onClick={this.handleClick} data-view="contact">Contact</li> */}
+          <li onClick={this.handleClick} data-view="contact">Contact</li>
         </ul>
       </div>
     );
