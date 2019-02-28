@@ -399,6 +399,10 @@ video#bgvid{
   border-bottom:3px solid #00ff72;
 }
 
+#resume section:first-of-type {
+  padding-top: 0;
+}
+
 #resume section:last-of-type{
   border-bottom:0;
 }
@@ -420,6 +424,14 @@ video#bgvid{
 
 #resume section:last-of-type h3{
   border-bottom:3px solid #ff005a;
+}
+
+#resume h4 {
+  font-size: 1.75em;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  margin-bottom: 0;
 }
 
 #resume p{
@@ -453,7 +465,7 @@ video#bgvid{
 }
 
 .job h5{
-  font-size:1.15em;
+  font-size:1.25em;
   margin-bottom:15px;
 }
 
@@ -462,6 +474,11 @@ video#bgvid{
   font-size:.9em;
   padding-bottom:4px;
   color:#a482f0;
+}
+
+#resume .skill-lists {
+  display: flex;
+  justify-content: space-between;
 }
 
 .project{

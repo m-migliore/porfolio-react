@@ -25,18 +25,17 @@ class Resume extends Component {
             <div className="job">
               <h4>Logic Web Media</h4>
               <h5>Front End Web Developer</h5>
-              <p>Huntington, NY</p>
-              <p>January 2017 - Present</p>
+              <p>Huntington Station, NY</p>
+              <p>January 2017 - October 2018</p>
               <ul className="list-unstyled">
-                <li><i className="fas fa-bullseye"></i> Created fully custom WordPress themes</li>
-                <li><i className="fas fa-bullseye"></i> Created custom WordPress sites with WooCommerce functionality</li>
-                <li><i className="fas fa-bullseye"></i> Edited, and created, static blocks and CMS pages on Magento sites</li>
+                <li><i className="fas fa-bullseye"></i> Developed over 30 custom, fully responsive WordPress themes with HTML, CSS, JavaScript, and PHP</li>
+                <li><i className="fas fa-bullseye"></i> Performed maintenance and edits on a variety of websites to ensure that the best SEO practices were being used</li>
+                <li><i className="fas fa-bullseye"></i> Implemented WooCommerce to existing WordPress themes</li>
+                <li><i className="fas fa-bullseye"></i> Edited, and created static blocks and CMS pages on Magento sites</li>
                 <li><i className="fas fa-bullseye"></i> Added simple and configurable products to Magento</li>
-                <li><i className="fas fa-bullseye"></i> Created custom MailChimp email templates</li>
-                <li><i className="fas fa-bullseye"></i> Creation of forms with Google reCaptcha integration (v2 and invisible), and PHP processing</li>
-                <li><i className="fas fa-bullseye"></i> Created fully responsive websites for screens of all sizes</li>
-                <li><i className="fas fa-bullseye"></i> Editing websites with modern SEO practices to improve visibility</li>
-                <li><i className="fas fa-bullseye"></i> General maintenance and edits of existing websites</li>
+                <li><i className="fas fa-bullseye"></i> Built custom HTML email templates to increase customer engagement for clients</li>
+                <li><i className="fas fa-bullseye"></i> Created forms with Google reCaptcha integration (v2 and invisible), and PHP processing</li>
+                <li><i className="fas fa-bullseye"></i> Perfromed general maintenance and edits of existing websites</li>
               </ul>
             </div>
             <div className="job">
@@ -44,10 +43,10 @@ class Resume extends Component {
               <h5>Junior Front End Web Developer</h5>
               <p>Greenlawn, NY</p>
               <p>September 2016 - January 2017</p>
-              <ul class="list-unstyled">
-                <li><i className="fas fa-bullseye"></i> Updating, and maintaining various client sites</li>
-                <li><i className="fas fa-bullseye"></i> Worked with custom sites, as well as WordPress sites</li>
-                <li><i className="fas fa-bullseye"></i> Graphic design work with Adobe Photoshop and Illustrator</li>
+              <ul className="list-unstyled">
+                <li><i className="fas fa-bullseye"></i> Completed edits and content additions to client websites</li>
+                <li><i className="fas fa-bullseye"></i> Created promotional emails for clients using Photoshop and HTML</li>
+                <li><i className="fas fa-bullseye"></i> Provided graphic design work using Illustrator </li>
               </ul>
             </div>
             <div className="job">
@@ -55,10 +54,9 @@ class Resume extends Component {
               <h5>Front End Development Intern</h5>
               <p>Brooklyn, NY</p>
               <p>December 2014 - May 2015</p>
-              <ul class="list-unstyled">
-                <li><i className="fas fa-bullseye"></i> Performed maintenance and upgraded content to existing websites</li>
+              <ul className="list-unstyled">
                 <li><i className="fas fa-bullseye"></i> Built App page on company website</li>
-                <li><i className="fas fa-bullseye"></i> Graphic design work with Adobe Photoshop and Illustrator</li>
+                <li><i className="fas fa-bullseye"></i> Performed maintenance and upgraded content to existing websites</li>
               </ul>
             </div>
             <div className="job">
@@ -66,7 +64,7 @@ class Resume extends Component {
               <h5>Social Media Strategy Consultant</h5>
               <p>Syracuse, NY</p>
               <p>Spring 2014</p>
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 <li><i className="fas fa-bullseye"></i> Assisted in creation of social media strategy for the Central New York region to reach new demographics</li>
                 <li><i className="fas fa-bullseye"></i> Integrated all of their social media platforms</li>
               </ul>
@@ -74,26 +72,48 @@ class Resume extends Component {
           </section>
           <section>
             <h3>Skills</h3>
-            <ul class="list-unstyled">
-              <li><i className="fas fa-bullseye"></i> HTML/HTML5, PHP</li>
-              <li><i className="fas fa-bullseye"></i> CSS/CSS3, SASS</li>
-              <li><i className="fas fa-bullseye"></i> Javascript, jQuery, JSON</li>
-              <li><i className="fas fa-bullseye"></i> Bootstrap, Foundation, WordPress, WooCommerce, Magento</li>
-              <li><i className="fas fa-bullseye"></i> SQL, Microsoft SQL Server 2008, ERDs</li>
-              <li><i className="fas fa-bullseye"></i> Experience with Git and version control</li>
-              <li><i className="fas fa-bullseye"></i> Adobe Photoshop and Illustrator</li>
-              <li><i className="fas fa-bullseye"></i> Microsoft Office Suite</li>
-            </ul>
+            <div className="skill-lists">
+              <ul className="list-unstyled">
+                <li><i className="fas fa-bullseye"></i> JavaScript</li>
+                <li><i className="fas fa-bullseye"></i> React</li>
+                <li><i className="fas fa-bullseye"></i> Redux</li>
+                <li><i className="fas fa-bullseye"></i> HTML</li>
+                <li><i className="fas fa-bullseye"></i> CSS</li>
+              </ul>
+              <ul className="list-unstyled">
+                <li><i className="fas fa-bullseye"></i> Ruby</li>
+                <li><i className="fas fa-bullseye"></i> Ruby on Rails</li>
+                <li><i className="fas fa-bullseye"></i> SQL</li>
+                <li><i className="fas fa-bullseye"></i> PHP</li>
+                <li><i className="fas fa-bullseye"></i> Git</li>
+              </ul>
+              <ul className="list-unstyled">
+                <li><i className="fas fa-bullseye"></i> Photoshop</li>
+                <li><i className="fas fa-bullseye"></i> Illustrator</li>
+                <li><i className="fas fa-bullseye"></i> WordPress</li>
+                <li><i className="fas fa-bullseye"></i> WooCommerce</li>
+                <li><i className="fas fa-bullseye"></i> Magento</li>
+              </ul>
+            </div>
           </section>
           <section>
             <h3>Education</h3>
             <div className="job">
+              <h4>Flatiron School</h4>
+              <h5>Software Engineering Bootcamp</h5>
+              <p>New York, NY</p>
+              <p>Fall 2018 - Winter 2019</p>
+              <ul className="list-unstyled">
+                <li><i className="fas fa-bullseye"></i> Immersive Full Stack Web Development Program</li>
+              </ul>
+            </div>
+            <div className="job">
               <h4>University of Denver</h4>
               <h5>Masters in Information & Communications Technology</h5>
               <p>Denver, CO</p>
-              <p>Winter 2015 - Present</p>
+              <p>Winter 2015 - Summer 2018</p>
               <ul className="list-unstyled">
-                <li><i class="fas fa-bullseye"></i> Concentration in Web Design and Development</li>
+                <li><i className="fas fa-bullseye"></i> Concentration in Web Design and Development</li>
               </ul>
             </div>
             <div className="job">
@@ -103,9 +123,6 @@ class Resume extends Component {
               <p>Fall 2010 - Spring 2014</p>
               <ul className="list-unstyled">
                 <li><i className="fas fa-bullseye"></i> Minor in Global Enterprise Technology</li>
-                <li><i className="fas fa-bullseye"></i> Member of The National Society of Collegiate</li>
-                <li><i className="fas fa-bullseye"></i> Member of the Syracuse Collegiate Cyber Defense Competition Team</li>
-                <li><i className="fas fa-bullseye"></i> GPA 3.4, Dean’s List</li>
               </ul>
             </div>
             <div className="job">
