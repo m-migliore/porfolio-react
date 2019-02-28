@@ -515,13 +515,54 @@ transform: scale(1.05);
   display: block;
 }
 
-#contact .form-control{
+/* #contact .form-control{
   background-color:rgba(255,255,255,.9);
   border-radius:0;
 }
 
 #contact .error{
   color:#f00;
+} */
+
+#contact h3 {
+  font-size: 1.75em;
+}
+
+.contact-icons {
+  margin-top: 35px;
+}
+
+.contact-icons a {
+  font-size: 2.5em;
+  margin-right: 25px;
+}
+
+.contact-icons a i {
+  color: #fff;
+  -webkit-transition:.25s ease-in-out;
+  -moz-transition:.25s ease-in-out;
+  -o-transition:.25s ease-in-out;
+  transition:.25s ease-in-out;
+}
+
+.contact-icons a:hover i {
+  -moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
+
+.contact-icons a:first-of-type:hover i {
+  color: #f18702;
+}
+
+.contact-icons a:nth-of-type(2):hover i {
+  color: #00ff72;
+}
+
+.contact-icons a:last-of-type:hover i {
+  color: #00baff;
 }
 
 @media screen and (max-width: 1199px) {
