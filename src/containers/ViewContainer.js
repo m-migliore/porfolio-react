@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import About from '../components/About'
 import Resume from '../components/Resume'
 import Portfolio from '../components/Portfolio'
+import Contact from '../components/Contact'
 
 class ViewContainer extends Component {
 
@@ -16,8 +17,8 @@ class ViewContainer extends Component {
         return <Resume />
       case "portfolio":
         return <Portfolio />
-      // case "contact":
-      //   return <Contact />
+      case "contact":
+        return <Contact />
       default:
         return null
     }
