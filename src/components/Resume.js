@@ -23,6 +23,19 @@ class Resume extends Component {
         <section>
           <h3>Work Experience</h3>
             <div className="job">
+              <h4>Oppenheimer &amp; Co.</h4>
+              <h5>Front End Developer</h5>
+              <p>New York, NY</p>
+              <p>April 2019 - Present</p>
+              <ul className="list-unstyled">
+                <li><i className="fas fa-bullseye"></i> Built, refactored, and debugged a custom, internal financial application with Vue Js</li>
+                <li><i className="fas fa-bullseye"></i> Built and maintained a form based, MVC application with Vue JS and Gulp</li>
+                <li><i className="fas fa-bullseye"></i> Communicated with 5+ back-end development teams to understand, create, and test API specs </li>
+                <li><i className="fas fa-bullseye"></i> Worked directly with upper management to gather requirements, mock-up, and build new UI features in an Agile environment</li>
+                <li><i className="fas fa-bullseye"></i> Conducted technical interviews for potential front end developer hires</li>
+              </ul>
+            </div>
+            <div className="job">
               <h4>Logic Web Media</h4>
               <h5>Front End Web Developer</h5>
               <p>Huntington Station, NY</p>
@@ -77,8 +90,10 @@ class Resume extends Component {
                 <li><i className="fas fa-bullseye"></i> JavaScript</li>
                 <li><i className="fas fa-bullseye"></i> React</li>
                 <li><i className="fas fa-bullseye"></i> Redux</li>
+                <li><i className="fas fa-bullseye"></i> Vue JS</li>
                 <li><i className="fas fa-bullseye"></i> HTML</li>
                 <li><i className="fas fa-bullseye"></i> CSS</li>
+                <li><i className="fas fa-bullseye"></i> JSON</li>
               </ul>
               <ul className="list-unstyled">
                 <li><i className="fas fa-bullseye"></i> Ruby</li>
@@ -86,8 +101,12 @@ class Resume extends Component {
                 <li><i className="fas fa-bullseye"></i> SQL</li>
                 <li><i className="fas fa-bullseye"></i> PHP</li>
                 <li><i className="fas fa-bullseye"></i> Git</li>
+                <li><i className="fas fa-bullseye"></i> NPM</li>
+                <li><i className="fas fa-bullseye"></i> Gulp</li>
               </ul>
               <ul className="list-unstyled">
+                <li><i className="fas fa-bullseye"></i> Docker</li>
+                <li><i className="fas fa-bullseye"></i> REST APIs</li>
                 <li><i className="fas fa-bullseye"></i> Photoshop</li>
                 <li><i className="fas fa-bullseye"></i> Illustrator</li>
                 <li><i className="fas fa-bullseye"></i> WordPress</li>
