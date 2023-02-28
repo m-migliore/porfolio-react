@@ -22,11 +22,24 @@ class Resume extends Component {
         {/* <a href="docs/web-resume.pdf" target="_blank" class="btn btn-primary">Download PDF Version</a> */}
         <section>
           <h3>Work Experience</h3>
+          <div className="job">
+              <h4>Capital One</h4>
+              <h5>Software Engineer</h5>
+              <p>New York, NY</p>
+              <p>November 2021 - Present</p>
+              <ul className="list-unstyled">
+                <li><i className="fas fa-bullseye"></i> Created and edited ATM screens with React and Strapi CMS</li>
+                <li><i className="fas fa-bullseye"></i> Built and maintained REST APIs with Express.js</li>
+                <li><i className="fas fa-bullseye"></i> Performed disaster recovery tests to ensure a resilient development environment through AWS</li>
+                <li><i className="fas fa-bullseye"></i> Implemented application logging and monitoring through services such as Splunk, New Relic, and PagerDuty</li>
+                <li><i className="fas fa-bullseye"></i> Completed AWS Certified Solutions Architect - Associate certification</li>
+              </ul>
+            </div>
             <div className="job">
               <h4>Oppenheimer &amp; Co.</h4>
               <h5>Front End Developer</h5>
               <p>New York, NY</p>
-              <p>April 2019 - Present</p>
+              <p>April 2019 - November 2021</p>
               <ul className="list-unstyled">
                 <li><i className="fas fa-bullseye"></i> Built, refactored, and debugged a custom, internal financial application with Vue Js</li>
                 <li><i className="fas fa-bullseye"></i> Built and maintained a form based, MVC application with Vue JS and Gulp</li>
