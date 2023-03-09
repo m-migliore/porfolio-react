@@ -29,6 +29,7 @@ class Resume extends Component {
               <p>November 2021 - Present</p>
               <ul className="list-unstyled">
                 <li><i className="fas fa-bullseye"></i> Created and edited ATM screens with React and Strapi CMS</li>
+                <li><i className="fas fa-bullseye"></i> Performed regression testing for web based and mobile applications</li>
                 <li><i className="fas fa-bullseye"></i> Built and maintained REST APIs with Express.js</li>
                 <li><i className="fas fa-bullseye"></i> Performed disaster recovery tests to ensure a resilient development environment through AWS</li>
                 <li><i className="fas fa-bullseye"></i> Implemented application logging and monitoring through services such as Splunk, New Relic, and PagerDuty</li>

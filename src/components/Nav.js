@@ -22,7 +22,7 @@ class Nav extends Component {
     return (
       <>
         <nav className="animated fadeInDown" id="nav">
-          <h1 className="animated fadeInLeft">Matt Migliore <br/> <span>Full Stack Web Developer</span></h1>
+          <h1 className="animated fadeInLeft">Matt Migliore <br/> <span>Front End Developer</span></h1>
           <button type="button" onClick={this.handleBurger} id="hamburger" className={this.props.menuActive ? "animated fadeInUp open" : "animated fadeInUp"}>
             <span className="sr-only">Toggle navigation</span>
             <span></span>
