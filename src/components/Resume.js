@@ -28,12 +28,18 @@ class Resume extends Component {
               <p>New York, NY</p>
               <p>November 2021 - Present</p>
               <ul className="list-unstyled">
-                <li><i className="fas fa-bullseye"></i> Created and edited ATM screens with React and Strapi CMS</li>
-                <li><i className="fas fa-bullseye"></i> Performed regression testing for web based and mobile applications</li>
-                <li><i className="fas fa-bullseye"></i> Built and maintained REST APIs with Express.js</li>
-                <li><i className="fas fa-bullseye"></i> Performed disaster recovery tests to ensure a resilient development environment through AWS</li>
-                <li><i className="fas fa-bullseye"></i> Implemented application logging and monitoring through services such as Splunk, New Relic, and PagerDuty</li>
-                <li><i className="fas fa-bullseye"></i> Completed AWS Certified Solutions Architect - Associate certification</li>
+                <li><i className="fas fa-bullseye"></i> Developed dynamic ATM UI screens using React, TypeScript, and custom SASS component library.</li>
+                <li><i className="fas fa-bullseye"></i> Built custom UI components to enhance ATM user experiences.</li>
+                <li><i className="fas fa-bullseye"></i> Integrated FDIC ADA-compliant voice guidance, improving accessibility for ATM users.</li>
+                <li><i className="fas fa-bullseye"></i> Earned AWS Certified Solutions Architect – Associate, leveraging cloud best practices for infrastructure optimization.</li>
+                <li><i className="fas fa-bullseye"></i> Led simulated disaster recovery events, automating AWS failovers to enhance system resilience for the team owned applications</li>
+                <li><i className="fas fa-bullseye"></i> Developed Hawkeye alerts in Snowflake, using SQL for real-time error monitoring and proactive issue resolution.</li>
+                <li><i className="fas fa-bullseye"></i> Created New Relic dashboards to track ATM engagement metrics and optimize customer interactions.</li>
+                <li><i className="fas fa-bullseye"></i> Developed credit card payments end-to-end (E2E) automated tests in Gherkin, improving test coverage.</li>
+                <li><i className="fas fa-bullseye"></i> Deployed a dedicated E2E testing platform using AWS EC2, ensuring isolated environments for transaction validation.</li>
+                <li><i className="fas fa-bullseye"></i> Automated CloudFormation cleanup, maintaining AWS compliance by scheduling rogue EC2 stack deletions.</li>
+                <li><i className="fas fa-bullseye"></i> Configured PagerDuty alerts for atm transactions, enabling rapid response to service disruptions.</li>
+                <li><i className="fas fa-bullseye"></i> Investigated and resolved atm transaction issues, improving operational efficiency and reducing manual intervention.</li>
               </ul>
             </div>
             <div className="job">
