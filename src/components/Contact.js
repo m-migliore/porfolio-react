@@ -21,7 +21,7 @@ class Contact extends Component {
         <div className="contact-icons">
           <a href="https://www.linkedin.com/in/matthew-migliore-b231a060/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
           <a href="https://github.com/m-migliore" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-          <a href="mailto:migliorewd@gmail.com"><i class="far fa-envelope"></i></a>
+          <a href="mailto:themigdev@gmail.com"><i class="far fa-envelope"></i></a>
         </div>
 
       </div>
